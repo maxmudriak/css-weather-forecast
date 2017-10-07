@@ -1,0 +1,125 @@
+*{
+	transition: all .1s ease-in;
+
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+}
+body {
+	font-family: "Lucida Sans Unicode", “Lucida Grande”, sans-serif;
+	color: #FFF;
+	background-color: #3399cc;
+	margin: 0;
+	border: 15px solid #2b81ac;
+}
+html {
+	height: 100%;
+}
+html,
+body {
+	min-height: 100%;
+}
+div.ba-container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+h1.ba-title {
+	font-size:24px;
+}
+ul.ba-list {
+	font-size: 0;
+	padding: 0;
+	list-style: none;
+	border: 2px solid #fff;
+}
+ul.ba-list li {
+	display: inline-block;
+	font-size: 14px;
+	border: 2px solid #fff;
+	width: 25%;
+	text-align: center;
+	position: relative;
+}
+ul.ba-list li:first-child {
+	width: 50%;
+}
+ul.ba-list li:last-child {
+	width: 100%;
+}
+ul.ba-list li:nth-child(9) {
+	width: 50%;
+}
+ul.ba-list li h4 {
+	font-weight: normal;
+	margin: 15px auto 0;
+	font-size: 20px;
+}
+ul.ba-list li p {
+	margin: 10px auto 20px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.5);
+}
+li.ba-lisbon {
+	background-color: #3399cc;
+}
+li.ba-paris {
+	background-color: #33cccc;
+}
+li.ba-belgrade {
+	background-color: #996699;
+}
+li.ba-poltova {
+	background-color: #c24747;
+}
+li.ba-ta {
+	background-color: #e2674a;
+}
+li.ba-cair {
+	background-color: #ffcc66;
+}
+li.ba-ny {
+	background-color: #99cc99;
+}
+li.ba-nd {
+	background-color: #669999;
+}
+li.ba-sf {
+	background-color: #cc6699;
+}
+li.ba-tokyo {
+	background-color: #339966;
+}
+li.ba-sydney {
+	background-color: #666699;
+}
+.wi {
+	font-size: 25px;
+	color: rgba(255, 255, 255, 0.8);
+	padding-left: 3px;
+}
+ul.ba-list:hover li {
+	// opacity: 0.4;
+	// background-color: rgba(0, 0, 0, 0.5);
+}
+ul.ba-list:hover li:hover {
+    opacity: 1;
+}
+ul.ba-list:hover li:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+ul.ba-list:hover li:hover:after {
+	opacity: 0;
+ }
